@@ -1,4 +1,4 @@
-# PProductions — Análise de Banco de Dados Cinematográfico
+
 
 Este repositório foi criado para afins de avaliação de um projeto proposto da indicium
 
@@ -68,5 +68,3 @@ python src/predict_single.py --model models/model_imdb.pkl --json '{
 }'
 ```
 
-## Licença
-Somente para fins educacionais e de avaliação interna da PProductions.
