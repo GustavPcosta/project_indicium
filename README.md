@@ -1,29 +1,25 @@
 # PProductions — Análise de Banco de Dados Cinematográfico
 
-Este repositório contém:
-- **EDA completa** (notebook em `notebooks/EDA_and_Modeling.ipynb`).
-- **Modelagem** de predição de nota do IMDb e fatores associados ao faturamento (receita bruta).
-- Scripts para **treino** e **predição**.
-- Pipeline reproduzível com boas práticas.
+Este repositório foi criado para afins de avaliação de um projeto proposto da indicium
 
 ## Estrutura
 ```
 pproductions-imdb-analysis/
-├── data/                  # coloque aqui o dataset .csv (ex.: imdb.csv)
-├── models/                # modelos treinados (.pkl) serão salvos aqui
+├── data/                  
+├── models/               
 ├── notebooks/
 │   └── EDA_and_Modeling.ipynb
-├── reports/               # gráficos e relatórios exportados
+├── reports/               
 ├── src/
-│   ├── train_model.py
+│   ├── train.model.py
 │   └── predict_single.py
-└── requirements.txt
+└── requeriments.txt
 ```
 
-## Requisitos
+## Requeriments
 Veja `requirements.txt` para versões testadas.
 
-## Instalação
+## instalação
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
